@@ -1,0 +1,21 @@
+{
+    "name": "onedrop/assetsync-box",
+    "type": "neos-package",
+    "description": "Sync files from box.com into Neos Media",
+    "version": "1.1.0",
+    "license": "MIT",
+    "require": {
+        "neos/neos": "4.*",
+        "dl/assetsync": "^2.0"
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Onedrop.AssetSync.Box"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Onedrop\\AssetSync\\Box\\": "Classes/"
+        }
+    }
+}

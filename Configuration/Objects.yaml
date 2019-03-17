@@ -1,0 +1,18 @@
+Onedrop\AssetSync\Box\Controller\AuthenticateController:
+  properties:
+    tokenCache:
+      object:
+        factoryObjectName: Neos\Flow\Cache\CacheManager
+        factoryMethodName: getCache
+        arguments:
+          1:
+            value: Onedrop_AssetSyncBox_Token
+Onedrop\AssetSync\Box\Api\BoxClient:
+  properties:
+    tokenCache:
+      object:
+        factoryObjectName: Neos\Flow\Cache\CacheManager
+        factoryMethodName: getCache
+        arguments:
+          1:
+            value: Onedrop_AssetSyncBox_Token

@@ -1,0 +1,8 @@
+Neos:
+  Flow:
+    mvc:
+      routes:
+        'Onedrop.AssetSync.Box': true
+    object:
+      includeClasses:
+        'Onedrop.AssetSync.Box' : ['.*']

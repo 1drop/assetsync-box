@@ -1,0 +1,9 @@
+-
+  name: 'Box.com OAuth2'
+  uriPattern: '__oauth/box/authenticate(/{@action})'
+  defaults:
+    '@package': 'Onedrop.AssetSync.Box'
+    '@controller': 'Authenticate'
+    '@format': 'html'
+    '@action': 'requestToken'
+  appendExceedingArguments: true
